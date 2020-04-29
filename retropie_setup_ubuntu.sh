@@ -56,6 +56,17 @@ function install_retropie() {
     $USER_HOME/RetroPie-Setup/retropie_packages.sh setup basic_install
     $USER_HOME/RetroPie-Setup/retropie_packages.sh samba
     $USER_HOME/RetroPie-Setup/retropie_packages.sh samba install_shares
+
+    # CSONTI
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh dolphin
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh vice
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh scummvm
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh kodi
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh dosbox
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh skyscraper
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh xboxdrv
+    $USER_HOME/RetroPie-Setup/retropie_packages.sh fs-uae
+
     chown -R $USER:$USER $USER_HOME/RetroPie-Setup
 }
 
