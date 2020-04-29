@@ -8,9 +8,10 @@ PLYMOUTH_THEME=retropie-pacman
 RETROPIE_CORE_DEPENDS=(
     xorg openbox pulseaudio alsa-utils menu libglib2.0-bin python-xdg 
     at-spi2-core libglib2.0-bin dbus-x11 git dialog unzip xmlstarlet
+    software-properties-common
 )
 RETROPIE_EXTRA_DEPENDS=( 
-    openssh-server xdg-utils unclutter 
+    openssh-server xdg-utils unclutter net-tools x11-xserver-utils mesa-utils screen
 )
 
 # Add user to sudoers file and disable password prompt
